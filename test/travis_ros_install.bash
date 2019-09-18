@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
 #required packages
-pip install --upgrade pip
+pip install --upgrade pip  #for upgrade pip 2019/09/18
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
