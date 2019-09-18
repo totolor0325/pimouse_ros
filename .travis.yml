@@ -1,6 +1,7 @@
 sudo: required
 dist: trusty
 script:
+  - python -m pip install --upgrade pip
   - bash -xve ./test/travis_ros_install.bash
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
